@@ -1,0 +1,19 @@
+# configuration values: 
+apiVersion: v1
+kind: ConfigMap
+data:
+  # AWS_BUCKET: {{AWS_BUCKET}}
+  # AWS_PROFILE: {{AWS_PROFILE}}
+  # AWS_REGION: {{AWS_REGION}}
+  # POSTGRESS_DB: {{POSTGRESS_DB}}
+  # POSTGRESS_HOST: {{POSTGRESS_HOST}}
+  # URL: {{APP_URL}}
+  JWT_SECRET: testing
+  AWS_PROFILE: AdministratorAccess-631392691795
+  AWS_BUCKET: module3-project
+  AWS_REGION: ap-southeast-1
+  POSTGRESS_DB: postgres
+  POSTGRESS_HOST: module3-project.cuablfqqogkp.ap-southeast-1.rds.amazonaws.com
+  URL: http://localhost:8100 
+metadata:
+  name: env-config
